@@ -6,6 +6,7 @@
   import HelloFactory from "./pages/hello-factory/Page.svelte";
   import HelloAbstractFactory from "./pages/hello-abstract-factory/Page.svelte";
   import HelloCommand from "./pages/hello-command/Page.svelte";
+  import HelloProxy from "./pages/hello-proxy/Page.svelte"
  
   import HelloState from "./pages/hello-state/Page.svelte";
 
@@ -17,6 +18,7 @@
     { title: "hello-command", component: HelloCommand },
     
     { title: "hello-state", component: HelloState },
+    { title: "hello-proxy", component: HelloProxy },
   ];
 
   let page;
